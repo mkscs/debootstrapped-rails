@@ -1,5 +1,5 @@
 #!/bin/sh
-APP_NAME="$RAILS_APP_NAME"
+APP_NAME="${RAILS_APP_NAME:-test_app}"
 HOME="/rails_app/$RAILS_APP_NAME"
 
 cd /rails_app
